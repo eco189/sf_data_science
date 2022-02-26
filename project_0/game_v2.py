@@ -54,5 +54,6 @@ def score_game(random_predict) -> int:
 
 
 # score_game(random_predict)  
-if __name__ == '__main__':    # что бы в jupyter notebook файл запускался только после нашего вызова
+if __name__ == '__main__':    
     score_game(random_predict)
+    
