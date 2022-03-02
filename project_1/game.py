@@ -20,5 +20,5 @@ while True:
     elif predict_number < number:
         number_min = predict_number
     else:
-        print(f"Вы угадали число! Это число = {number}, за {count} попыток")
+        print(f"Число {number} было угадано за {count} попыток")
         break
